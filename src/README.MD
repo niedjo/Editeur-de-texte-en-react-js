@@ -85,7 +85,7 @@ function App() {
     let texte = localStorage.getItem('text');
     if (texte) {
       setText(texte);
-    } else {
+    } else { 
       setText(sampleText);
     }
   }, []);
